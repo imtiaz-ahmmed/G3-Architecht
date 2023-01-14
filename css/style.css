@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* fonts */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+    /* primary-color */
+    color: #131313;
+
+     /* border: 1px solid red; */
+}
+
+/* Header Section Styles */
+
+header {
+    background-color: #FFF4E7;
+    width: 100 vr;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+    width: 100%;
+    height: 80px;
+    max-width: 1250px;
+    padding: 0 25px;
+}
+
+.brand-name {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 862px;
+
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+------------------------------
+    Alternative Way
+------------------------------ 
+.banner{
+    text-align: center;
+    max-width: 862px;
+    margin: 0 auto;     
+}
+------------------------------
+*/
+
+.header-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
+.banner-img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 576px) {
+    ul {
+        flex-direction: column;
+        gap: 8px
+    }
+
+
+    nav {
+        flex-direction: column;
+    }
+
+    .brand-name {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .header-title {
+        margin-top: 10px;
+        font-size: 44px;
+    }
+
+}
+
+@media only screen and (min-width:577px) and (max-width:767px) {
+
+    nav {
+        flex-direction: column;
+    }
+
+}
