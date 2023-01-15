@@ -36,7 +36,8 @@ nav {
 .feature-title,
 .feature-types-title,
 .fact-title,
-.sponspors-title {
+.sponspors-title,
+.pricing-head-title {
     font-size: 45px;
     font-weight: 700;
 }
@@ -313,6 +314,84 @@ nav {
 .sponspors-container img {
     filter: grayscale(100%)
 }
+/* Pricing Plan Styles */
+
+.pricing-plans{
+    margin-bottom: 50px;
+}
+.pricing-head-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.pricing-plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+
+.pricing-plans-container {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1250px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.plans {
+    border: 3px solid rgb(5, 247, 162);
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 20%;
+    height: 15%;
+
+}
+
+.pricing-plan-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: rgb(5, 247, 162);
+    color: #F8F8F8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.pricing-plan-title:hover {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    background-color:  #FF900E;
+    color: #F8F8F8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.category {
+    font-weight: 600;
+    font-size: 55px;
+    color: #151414;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.pricing-list {
+    padding: 10px;
+}
+.li-icon-check-mark{
+    color: rgb(32, 248, 12);
+}
+.li-icon-xmark {
+    color: red;
+
+}
 
 footer{
     margin: 0 auto 100px;
@@ -422,6 +501,15 @@ footer{
         gap: 50px;
 
     }
+    .pricing-plans-container{
+        flex-direction: column;
+    }
+    .plans{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
 
 
 
@@ -431,11 +519,10 @@ footer{
 
 @media only screen and (min-width:577px) and (max-width:767px) {
 
-    
-    .brand-name{
-        font-size: 30px;
-        
+    nav{
+        flex-direction: column;
     }
+   
 
     .header-title {
 
@@ -502,6 +589,14 @@ footer{
         gap: 50px;
 
     }
+    .pricing-plans-container{
+        flex-direction: column;
+    }
+    .plans{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -563,6 +658,14 @@ footer{
         flex-direction: column;
         gap: 50px;
 
+    }
+    .pricing-plans-container{
+        flex-direction: column;
+    }
+    .plans{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 
 }
