@@ -14,6 +14,25 @@
     /* border: 1px solid red; */
 }
 
+/* Common Styles */
+.description {
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.primary-button {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 32px;
+}
+
 /* Header Section Styles */
 
 header {
@@ -57,6 +76,7 @@ nav {
     flex-direction: column;
     margin: 0 auto;
     max-width: 1250px;
+    width: 100%;
 
     text-align: center;
     padding: 10px;
@@ -74,8 +94,12 @@ nav {
 ------------------------------
 */
 .banner-top-description {
-    max-width: 862px;
+    max-width: 868px;
+    margin: 0 auto;
+
+
 }
+
 
 .header-title {
     font-weight: 700;
@@ -83,23 +107,15 @@ nav {
     margin-bottom: 30px;
 }
 
-.description {
+/* .banner-description{
     font-size: 16px;
     color: #727272;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 868px;
+} */
 
-}
 
-.primary-button {
-    width: 180px;
-    height: 64px;
-    border-radius: 8px;
-    border: 0;
-    background-color: #FF900E;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 20px;
-    margin-top: 32px;
-}
 
 .banner-img {
     width: 100%;
@@ -252,7 +268,8 @@ nav {
     width: 100%;
     margin: 0 auto;
 }
-.some-facts .description{
+
+.some-facts .description {
     margin-top: 24px;
 }
 
@@ -314,11 +331,13 @@ nav {
 .sponspors-container img {
     filter: grayscale(100%)
 }
+
 /* Pricing Plan Styles */
 
-.pricing-plans{
+.pricing-plans {
     margin-bottom: 50px;
 }
+
 .pricing-head-title {
     text-align: center;
     margin-bottom: 50px;
@@ -367,7 +386,7 @@ nav {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    background-color:  #FF900E;
+    background-color: #FF900E;
     color: #F8F8F8;
     border-radius: 8px;
     text-align: center;
@@ -385,15 +404,17 @@ nav {
 .pricing-list {
     padding: 10px;
 }
-.li-icon-check-mark{
+
+.li-icon-check-mark {
     color: rgb(32, 248, 12);
 }
+
 .li-icon-xmark {
     color: red;
 
 }
 
-footer{
+footer {
     margin: 0 auto 100px;
     width: 100%;
     max-width: 1250px;
@@ -501,15 +522,17 @@ footer{
         gap: 50px;
 
     }
-    .pricing-plans-container{
+
+    .pricing-plans-container {
         flex-direction: column;
     }
-    .plans{
+
+    .plans {
         width: 50%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
-    
+
 
 
 
@@ -519,10 +542,10 @@ footer{
 
 @media only screen and (min-width:577px) and (max-width:767px) {
 
-    nav{
+    nav {
         flex-direction: column;
     }
-   
+
 
     .header-title {
 
@@ -580,7 +603,8 @@ footer{
         text-align: center;
 
     }
-    .some-facts .description{
+
+    .some-facts .description {
         text-align: center;
     }
 
@@ -589,10 +613,12 @@ footer{
         gap: 50px;
 
     }
-    .pricing-plans-container{
+
+    .pricing-plans-container {
         flex-direction: column;
     }
-    .plans{
+
+    .plans {
         width: 50%;
         margin: 0 auto;
         margin-bottom: 30px;
@@ -649,7 +675,8 @@ footer{
         text-align: center;
 
     }
-    .some-facts .description{
+
+    .some-facts .description {
         text-align: center;
     }
 
@@ -659,10 +686,12 @@ footer{
         gap: 50px;
 
     }
-    .pricing-plans-container{
+
+    .pricing-plans-container {
         flex-direction: column;
     }
-    .plans{
+
+    .plans {
         width: 50%;
         margin: 0 auto;
         margin-bottom: 30px;
