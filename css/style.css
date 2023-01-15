@@ -11,7 +11,6 @@
     /* primary-color */
     color: #131313;
 
-    /* border: 1px solid red; */
 }
 
 /* Common Styles */
@@ -96,8 +95,6 @@ nav {
 .banner-top-description {
     max-width: 868px;
     margin: 0 auto;
-
-
 }
 
 
@@ -106,15 +103,6 @@ nav {
     font-size: 64px;
     margin-bottom: 30px;
 }
-
-/* .banner-description{
-    font-size: 16px;
-    color: #727272;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 868px;
-} */
-
 
 
 .banner-img {
@@ -175,30 +163,23 @@ nav {
     max-width: 1250px;
     width: 100%;
     gap: 30px;
-
-
-
 }
 
 .feature-types {
-
     width: 50%;
     padding-top: 45px;
-
 }
 
 .feature-types-title {
     padding-left: 21px;
     border-left: 5px solid #FF900E;
     margin-bottom: 24px;
-
     max-width: 514px;
     width: 100%;
 }
 
 .description {
     margin-bottom: 30px;
-
     max-width: 514px;
     width: 100%;
 }
@@ -222,13 +203,11 @@ nav {
 
 .feature-type-img {
     width: 50%;
-
 }
 
 .feature-type-img img {
     width: 100%;
     height: 90%;
-
 }
 
 
@@ -252,7 +231,6 @@ nav {
     color: #FFFFFF;
     font-size: 54px;
     font-weight: 700;
-
 }
 
 #exp-small {
@@ -287,21 +265,17 @@ nav {
     text-align: center;
     width: 240px;
     padding: 45px 35px 60px;
-
 }
 
 .fact ul {
     list-style: none;
     margin-bottom: 10px;
-
 }
 
 .fact-container :hover {
     transform: scale(1.25);
     background-color: greenyellow;
     color: #FFFFFF;
-
-
 }
 
 /* sponspors styles */
@@ -323,9 +297,6 @@ nav {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 100px;
-
-
-
 }
 
 .sponspors-container img {
@@ -341,7 +312,6 @@ nav {
 .pricing-head-title {
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 .pricing-plan-description {
@@ -350,7 +320,6 @@ nav {
     color: #444343;
     margin-bottom: 25px;
     text-align: center;
-
 }
 
 .pricing-plans-container {
@@ -360,7 +329,6 @@ nav {
     max-width: 1250px;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .plans {
@@ -369,7 +337,6 @@ nav {
     border-radius: 10px;
     width: 20%;
     height: 15%;
-
 }
 
 .pricing-plan-title {
@@ -398,7 +365,6 @@ nav {
     color: #151414;
     text-align: center;
     padding: 10px;
-
 }
 
 .pricing-list {
@@ -411,7 +377,6 @@ nav {
 
 .li-icon-xmark {
     color: red;
-
 }
 
 footer {
