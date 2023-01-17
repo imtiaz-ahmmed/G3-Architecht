@@ -335,8 +335,9 @@ nav {
     border: 3px solid rgb(5, 247, 162);
     margin-right: 50px;
     border-radius: 10px;
-    width: 20%;
+    width: 30%;
     height: 15%;
+    
 }
 
 .pricing-plan-title {
@@ -347,6 +348,7 @@ nav {
     color: #F8F8F8;
     border-radius: 8px;
     text-align: center;
+    
 }
 
 .pricing-plan-title:hover {
@@ -493,7 +495,7 @@ footer {
     }
 
     .plans {
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
         margin-bottom: 30px;
     }
