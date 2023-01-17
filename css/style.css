@@ -274,8 +274,9 @@ nav {
 
 .fact-container :hover {
     transform: scale(1.25);
-    background-color: greenyellow;
+    background-color: #FF900E;
     color: #FFFFFF;
+    overflow:hidden;
 }
 
 /* sponspors styles */
@@ -332,7 +333,7 @@ nav {
 }
 
 .plans {
-    border: 3px solid rgb(5, 247, 162);
+    border: 3px solid #FF900E;
     margin-right: 50px;
     border-radius: 10px;
     width: 30%;
@@ -344,7 +345,7 @@ nav {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    background-color: rgb(5, 247, 162);
+    background-color: #FF900E;
     color: #F8F8F8;
     border-radius: 8px;
     text-align: center;
@@ -355,7 +356,7 @@ nav {
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    background-color: #FF900E;
+    background-color: #ef5508;
     color: #F8F8F8;
     border-radius: 8px;
     text-align: center;
